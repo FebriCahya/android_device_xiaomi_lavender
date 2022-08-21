@@ -35,8 +35,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
         TARGET_DEVICE="lavender" \
-        PRODUCT_NAME="lavender" \
-	PRIVATE_BUILD_DESC="lavender-user 9 PKQ1.180904.001 V10.3.9.0.PFGMIXM release-keys" 
+        PRODUCT_NAME="lavender"
+
 
 # Device identifier
 PRODUCT_NAME := lineage_lavender
